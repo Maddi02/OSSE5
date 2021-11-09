@@ -4,6 +4,12 @@ import java.util.Scanner;
 
 public class main {
 
+    /**
+     * @param args
+     *
+     *
+     * Hallo ich hab ein Java Doc erstellt. Ich hoffe das passt so
+     */
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Geben Sie einen Satz ein");
