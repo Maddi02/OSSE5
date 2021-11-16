@@ -15,7 +15,12 @@ public class main {
         System.out.println("Geben Sie einen Satz ein");
         String input =  scan.nextLine();
         String upperCase = input.toUpperCase();
-
         System.out.println(upperCase);
+
+        util util = new util();
+
+
+
+
     }
 }
