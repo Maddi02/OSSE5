@@ -1,13 +1,11 @@
 
-import de.hfu.ResidentRepositoryStub;
-import de.hfu.domain.Resident;
-import de.hfu.repository.ResidentRepository;
-import de.hfu.service.BaseResidentService;
-import de.hfu.service.ResidentService;
-import de.hfu.service.ResidentServiceException;
+
+import de.hfu.residents.domain.Resident;
+import de.hfu.residents.repository.ResidentRepositoryStub;
+import de.hfu.residents.service.BaseResidentService;
+import de.hfu.residents.service.ResidentServiceException;
 import org.junit.Test;
 
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
