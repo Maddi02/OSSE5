@@ -1,4 +1,4 @@
-
+package de.hfu.residents.service;
 
 import de.hfu.residents.domain.Resident;
 import de.hfu.residents.repository.ResidentRepositoryStub;
@@ -72,6 +72,12 @@ public class ResidentServiceTest {
         list = baseResidentService.getFilteredResidentsList(suchMatixFamilyName);
         assertEquals(Andi.getGivenName(),list.get(0).getGivenName());
 
+
+        Resident suchMatixLimit = new Resident("", "","" , "", null);
+        list = baseResidentService.getFilteredResidentsList(suchMatixLimit);
+        assertEquals(Martin.getFamilyName(),list.get(0).getFamilyName());
+        assertEquals(Andi.getFamilyName(),list.get(1).getFamilyName());
+        assertEquals(Jan.getFamilyName(),list.get(2).getFamilyName());
 
 
 
